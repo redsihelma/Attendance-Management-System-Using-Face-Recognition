@@ -39,9 +39,7 @@ typing-extensions==3.7.4.3
 urllib3==1.26.4
 sklearn
 wheel
-DeepFace
-django-on-heroku 
-gunicorn
-django-heroku
 dj-database-url
 pillow
+dlib
+DeepFace
