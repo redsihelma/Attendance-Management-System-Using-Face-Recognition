@@ -1,0 +1,56 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mdeleted file mode 100644[m
+[1mindex 3324606..0000000[m
+[1m--- a/README.md[m
+[1m+++ /dev/null[m
+[36m@@ -1,50 +0,0 @@[m
+[31m-## Attendance Management System Using Face Recognition 💻[m
+[31m-[m
+[31m-Proyek ini melibatkan pembuatan sistem absensi yang memanfaatkan pengenalan wajah untuk menandai kehadiran, waktu masuk, dan waktu istirahat karyawan. Ini mencakup area seperti deteksi wajah, penyelarasan, dan pengenalan, bersamaan dengan pengembangan aplikasi web untuk memenuhi berbagai kasus penggunaan sistem seperti pendaftaran karyawan baru, penambahan foto ke dataset pelatihan, melihat laporan kehadiran, dll. Proyek ini dimaksudkan untuk berfungsi sebagai pengganti yang efisien untuk sistem kehadiran manual tradisional. Ini dapat digunakan di kantor perusahaan, sekolah, dan organisasi di mana keamanan sangat penting.[m
+[31m-[m
+[31m-Proyek ini bertujuan untuk mengotomatisasi sistem absensi tradisional dimana kehadiran ditandai secara manual. Ini juga memungkinkan organisasi untuk mempertahankan catatannya seperti waktu masuk, waktu keluar, waktu istirahat dan kehadiran secara digital. Digitalisasi sistem juga akan membantu dalam visualisasi data yang lebih baik menggunakan grafik untuk menampilkan no. karyawan yang hadir hari ini, jumlah jam kerja masing-masing karyawan dan waktu istirahat mereka. Fitur tambahannya berfungsi sebagai pemutakhiran dan penggantian yang efisien atas sistem kehadiran tradisional.[m
+[31m-[m
+[31m-## Lingkup proyek 🚀[m
+[31m-Pengenalan wajah menjadi lebih menonjol di masyarakat kita. Ini telah membuat kemajuan besar di bidang keamanan. Ini adalah alat yang sangat efektif yang dapat membantu penegak rendah untuk mengenali penjahat dan perusahaan perangkat lunak memanfaatkan teknologi untuk membantu pengguna mengakses teknologi. Teknologi ini dapat dikembangkan lebih lanjut untuk digunakan di jalan lain seperti ATM, mengakses file rahasia, atau materi sensitif lainnya.[m
+[31m-Server proyek ini sebagai dasar untuk proyek masa depan berdasarkan deteksi dan pengenalan wajah. Proyek ini juga mengonversi pengembangan web dan manajemen basis data dengan UI yang mudah digunakan. Dengan menggunakan sistem ini, setiap kantor perusahaan, sekolah dan organisasi dapat menggantikan cara tradisional mereka dalam menjaga kehadiran karyawan dan juga dapat menghasilkan laporan ketersediaan (kehadiran) mereka sepanjang bulan.[m
+[31m-[m
+[31m-**Sistem ini terutama bekerja di sekitar 2 jenis pengguna**[m
+[31m-1. Employee[m
+[31m-2. Admin[m
+[31m-[m
+[31m-**Fungsi berikut dapat dilakukan oleh admin: <br>**[m
+[31m-• Login <br>[m
+[31m-• Register new employees<br>[m
+[31m-• Add employee photos ke training data set <br>[m
+[31m-• Train model <br>[m
+[31m-• Lihat laporan kehadiran semua karyawan di View attendance report. Kehadiran dapat disaring berdasarkan tanggal atau karyawan untuk lihatnya di By date dan By employee. <br>[m
+[31m-[m
+[31m-**Fungsi-fungsi berikut dapat dilakukan oleh karyawan: <br>**[m
+[31m-• Login <br>[m
+[31m-• Tandai waktu masuk dan waktu habisnya dengan scanning wajah mereka <br>[m
+[31m-• melihat laporan kehadiran mereka di View attendance report <br>[m
+[31m-[m
+[31m-## Extraction of Facial Embeddings[m
+[31m-face_recognition by Adam Geitgey[m
+[31m-[m
+[31m-## Classification of Unknown Embedding [m
+[31m-using a Linear SVM (scikit-learn)[m
+[31m-[m
+[31m-## cara menjalankan aplikasi ini:[m
+[31m- - di aplikasi ini menggunakan Django versi 3.1.8 bisa mengintall [m
+[31m- atau menggunakan Python versi 3.6 atau yang lebih baru, dalam [m
+[31m- aplikasi ini menggunakan Python versi 3.9.12 [m
+[31m- - buat environment untuk install modul modul yang di butuhkan setelah membuat env selanjutnya aktifkan environment tersebut, ketik ```pip install <nama-modul>```tanpa tanda petik atau ```pip install -r requirements.txt``` di dalam path penyimpanan aplikasi yaitu ```\<path penyimpanan aplikasi>\Attendance-System-Using-Face-Recognition``` untuk menginstall modul modul yang di butuhkan [m
+[31m- - untuk run/menjalankan aplikasinya menggunakan CMD dengan mengubah[m
+[31m- pathnya di penyimpanan aplikasi yang tersimpan ```\<path penyimpanan aplikasi>\Attendance-System-Using-Face-Recognition``` dan mengaktifkan[m
+[31m- environment yang telah dibuat sebelumnya, selanjutnya ketik [m
+[31m- ```python manage.py runserver``` jika berhasil akan menampilkan link localhost klik link tersebut dengan ```Ctrl + click``` untuk masuk ke halman utama/home, beda [m
+[31m- lagi jika aplikasi sudah di hosting/di onlinekan[m
+[31m-[m
+[31m- ## perbedaan aplikasi ini dengan sebelumnya:[m
+[31m- - mengubah semua background dan semua logo dan menambahkan logo di home/tampilan utama[m
+[31m- - menambahkan back to andim di bagian View Attendance Reports dan di tulisan Attendance Dashboard tertanam link untuk kembali ke halaman utama View Attendance Reports jika ke halaman By Empliyee atau halaman By Date[m
+[31m-[m
+[31m-## Thank You[m
+[31m-- Author : [Nevil Parmar](https://nevilparmar.me)[m
+[31m-- copier, modifier : [Reza Maulana Rizky](https://github.com/redsihelma)[m
