@@ -34,9 +34,9 @@ using a Linear SVM (scikit-learn)
  - di aplikasi ini menggunakan Django versi 3.1.8 bisa mengintall 
  atau menggunakan Python versi 3.6 atau yang lebih baru, dalam 
  aplikasi ini menggunakan Python versi 3.9.12 
- - buat environment untuk install modul modul yang di butuhkan setelah membuat env selanjutnya aktifkan environment tersebut, ketik ```pip install <nama-modul>```tanpa tanda petik atau ```pip install -r requirements.txt``` di dalam path penyimpanan aplikasi yaitu ```\<path penyimpanan aplikasi>\Attendance-System-Using-Face-Recognition``` untuk menginstall modul modul yang di butuhkan 
+ - buat environment untuk install modul modul yang di butuhkan setelah membuat env selanjutnya aktifkan environment tersebut, ketik ```pip install <nama-modul>```tanpa tanda petik atau ```pip install -r requirements.txt``` di dalam path penyimpanan aplikasi untuk menginstall modul modul yang di butuhkan 
  - untuk run/menjalankan aplikasinya menggunakan CMD dengan mengubah
- pathnya di penyimpanan aplikasi yang tersimpan ```\<path penyimpanan aplikasi>\Attendance-System-Using-Face-Recognition``` dan mengaktifkan
+ pathnya di penyimpanan aplikasi yang tersimpan dan mengaktifkan
  environment yang telah dibuat sebelumnya, selanjutnya ketik 
  ```python manage.py runserver``` jika berhasil akan menampilkan link localhost klik link tersebut dengan ```Ctrl + click``` untuk masuk ke halman utama/home, beda 
  lagi jika aplikasi sudah di hosting/di onlinekan
